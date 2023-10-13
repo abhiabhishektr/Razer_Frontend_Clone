@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: RazerF5,Arial,Helvetica,sans-serif; */
+    border: boder-box;
+    /* background-color: #555555; */
+}
+.navbar{    
+    /* left: 0;
+    right: 0; */
+            position: fixed; 
+     top: 0px;  
+     width: 90%;
+    height: 60px;
+padding-left: 5%;
+padding-right: 5%;
+    /* height: 60px; */
+ background-color: black;   
+  display: flex;
+  color: #888888;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+justify-content: space-evenly;
+align-items: center;
+/* justify-content: center; */
+/* margin-top: 20px; */
+border-bottom: 2px solid green;
+
+}
+.n-logo{
+    background-image: url('https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg');
+    width: 35px;
+    height: 35px;
+
+}
+
+
+/* 
+.n-logo {
+    width: 35px;
+    height: 35px;
+    background-image: url('https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg'); /* Replace 'your-logo.png' with your logo image file */
+    /* background-size: cover; */
+    /*  animation: rotateLogo 5s linear infinite;*/ /* Define the animation */
+ /*  }
+   
+  @keyframes rotateLogo {
+    from {
+      transform: rotate(0deg); /* Start the rotation from 0 degrees */
+    /* } 
+    to {
+      transform: rotate(360deg); /* Rotate the logo to 360 degrees (full circle) */
+    /* } */
+  /* }  */ */
+
+
+.head2{
+    height: 44px;
+background-color: #555555;
+color: #eeeeee;
+display: flex;
+align-items: center ;
+margin-top: 60px;
+justify-content: center;
+font-size: .85rem;
+
+
+}
+.head2 a{
+    margin-left: 2px;
+    text-decoration: none;
+color: white;
+font-size: .9rem;
+
+}
+.accesories{
+    background-image: url("images/accesories.webp");
+    height: 565px;
+    width: 100%;
+    background-position: center center; 
+    background-size: cover;
+  display: flex;
+        align-items: center;
+  flex-direction: column;
+  color: #eeeeee;
+  padding-top: 70px;
+  margin-bottom: 10px;
+}
+
+.accesories-content{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: white;
+}
+.accesories-content p1 {
+    
+    font-size: .75rem;
+    font-weight: 530;
+font-size: 3.5rem;
+flex-direction: column ;
+display: flex;
+align-items: center;
+}
+.accesories-content p2 {
+    font-size: .75rem;
+    font-weight: 530;
+font-size: 1.7rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.car{
+    background-image: url("images/car.webp");
+    height: 565px;
+    width: 100%;
+    background-size: cover;
+  display: flex;
+  background-position: centerm,center;
+        align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+    
+.yellow{
+    display: flex;
+    justify-content: center;
+    height:36px ;
+    width:100px ;
+    background-color: #ff9c07;
+   color: black;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   padding : 2px 4px 2px 4px;
+   flex-direction: column;
+}
+
+.yellow p{
+    font-size: .75rem;
+}
+.car-content{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: white;
+}
+    .car-content p1 {
+        font-size: .75rem;
+        font-weight: 530;
+   font-size: 3.5rem;
+    }
+    .car-content p2 {
+        font-size: .75rem;
+        font-weight: 530;
+   font-size: 1.7rem;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    }
+.aa a{
+
+    text-decoration: none;
+    padding-right: 15px;
+    color: white;
+    font-weight: 530;
+}
+.aa p7{
+    color: green;
+}
+    
+
+.chair{
+    background-image: url("images/chair.webp");
+    height: 565px;
+    width: 100%;
+    background-position: center center; 
+    background-size: cover;
+  display: flex;
+        align-items: center;
+  flex-direction: column;
+  color: #eeeeee;
+  padding-top: 70px;
+  margin-bottom: 10px;
+}
+
+.chair-content{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: white;
+}
+.chair-content p1 {
+    
+    font-size: .75rem;
+    font-weight: 530;
+font-size: 3.5rem;
+flex-direction: column ;
+display: flex;
+align-items: center;
+}
+.chair-content p2 {
+    font-size: .75rem;
+    font-weight: 530;
+font-size: 1.7rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.aa a{
+
+text-decoration: none;
+padding-right: 15px;
+color: white;
+font-weight: 530;
+}
+.aa p7{
+color: green;
+}
+
+
+
+
+.gamepad{
+    background-image: url("images/gamepad.webp");
+    height: 565px;
+    width: 100%;
+    background-position: center center; 
+    background-size: cover;
+  display: flex;
+        align-items: center;
+  flex-direction: column;
+  color: #eeeeee;
+  padding-top: 70px;
+  margin-bottom: 10px;
+}
+.gamepad-content{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: white;
+}
+.gamepad-content p1 {
+    display: flex;
+align-items: center;    
+    font-size: .75rem;
+    font-weight: 530;
+font-size: 3.5rem;
+}
+.gamepad-content p2 {
+    font-size: .75rem;
+    font-weight: 530;
+font-size: 1.7rem;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.aa a{
+
+text-decoration: none;
+padding-right: 15px;
+color: white;
+font-weight: 530;
+}
+.aa p7{
+color: green;
+}
+
+
+.c4{
+    display: flex;
+    width: 100%;
+    color: white  ;
+    margin-bottom: 10px;
+
+}
+.keyboard{
+    background-image: url("images/keyboard.webp");
+    width: 50%;
+    height: 570px;
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 5px;
+}
+.laptop{
+    background-image: url("images/laptop.webp");
+    width: 50%;
+    height: 570px;
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 5px;
+}
+
+
+.c5{
+
+    display: flex;
+    width: 100%;
+    color: #eeeeee;
+    margin-bottom: 10px;
+
+}
+.headset{
+    background-image: url("images/headset.webp");
+    height: 570px;
+    width: 50%;
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center center; 
+    margin-right: 5px;
+
+}
+
+.laptop-blade{
+    background-image: url("images/blade.webp");
+    height: 570px;
+    width: 50%;
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center center; 
+    margin-left: 5px;
+
+}
+
+.c6{
+    display: flex;
+    width: 100%;
+    color: #eeeeee;
+    border-bottom: 10px solid #555555; 
+}
+
+.mouse{
+    background-image: url("images/mouse.webp");
+    height: 570px;
+    width: 50%;
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center center; 
+    margin-right: 5px;
+
+}
+
+.silver
+
+{
+    background-image: url("images/silver.webp");
+    height: 570px;
+    width: 50%;
+    padding-top: 65px;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 5px;
+    
+}
+
+footer{
+    background-color: #222;
+    height: 300px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    color: white ;
+    padding-top: 25px;
+    /* border-bottom: 1px solid white; */
+  
+
+}
+
+.shop{
+    flex-basis: 15%;
+}
+.explore{
+    flex-basis: 15%;
+}
+.support{
+    flex-basis: 15%;
+}
+.company{
+    flex-basis: 15%;
+}
+.follow{
+    flex-basis: 15%;
+
+}
+.follow i{
+    font-size: 1.15rem;
+    color: #979797d7
+}
+.gamers{
+    flex-basis: auto;
+    color: green;
+    font-weight: 520;
+}
+footer li{
+    font-size: .70rem;
+    padding-top: 10px;
+    list-style: none;
+    color: #979797d7
+}
+footer h2{
+    font-size: .78rem;
+}
+
+.footer2{
+    background-color: #222;
+    height: 40px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+   
+    color: white ;
+    padding-top: 25px;
+    font-size: .75rem;
+    justify-content: space-between;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+    flex-basis: 15%;
+    align-items: center;
+
+}
+.footer2 #p1{
+    font-weight: 1000;
+}
+.background-color{
+    background-color: #555555;
+}
+    li:hover{
+   text-decoration: underline;
+   color: #eeeeee;
+}
+.n:hover{
+    color: #eeeeee;
+    
+ }
+#p1{
+  float: right
+
+}
+#p1 a{
+    color: #979797d7
+}
+.footer-a a, .footer-a p2 {
+    padding-right: 40px;
+    color: #979797d7
+}
+
+
+.hr-80 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
